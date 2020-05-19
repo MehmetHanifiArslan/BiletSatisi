@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="672.0" prefWidth="652.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="biletsatisi.FXMLDocument2Controller">
+   <children>
+      <Button layoutX="388.0" layoutY="410.0" mnemonicParsing="false" onAction="#satinAl" prefHeight="44.0" prefWidth="96.0" style="-fx-background-color: #41EAC1;" text="Satın Al" textFill="#171717" />
+      <Button layoutX="298.0" layoutY="54.0" mnemonicParsing="false" onAction="#ucakbilet" prefHeight="44.0" prefWidth="111.0" style="-fx-background-color: #41EAC1;" text="Uçak Bileti" textFill="#171717" />
+      <Button layoutX="164.0" layoutY="54.0" mnemonicParsing="false" onAction="#otobusbilet" prefHeight="44.0" prefWidth="104.0" style="-fx-background-color: #41EAC1;" text="OtobüsBileti" textFill="#171717" />
+      <Button layoutX="32.0" layoutY="54.0" mnemonicParsing="false" onAction="#trenbilet" prefHeight="44.0" prefWidth="104.0" style="-fx-background-color: #41EAC1;" text="Tren Bileti" textFill="#171717" />
+      <Label layoutX="23.0" layoutY="165.0" prefHeight="56.0" prefWidth="185.0" text="Nereden" />
+      <Label layoutX="234.0" layoutY="165.0" prefHeight="56.0" prefWidth="185.0" text="Nereye" />
+      <Label layoutX="136.0" layoutY="263.0" prefHeight="56.0" prefWidth="185.0" text="Ne Zaman" />
+      <ComboBox fx:id="nereye" layoutX="233.0" layoutY="221.0" prefHeight="31.0" prefWidth="185.0" />
+      <ComboBox fx:id="nereden" layoutX="24.0" layoutY="221.0" prefHeight="31.0" prefWidth="185.0" />
+      <ComboBox fx:id="zaman" layoutX="141.0" layoutY="329.0" prefHeight="31.0" prefWidth="185.0" />
+      <Label fx:id="satinAlindimi" layoutX="354.0" layoutY="477.0" prefHeight="21.0" prefWidth="172.0" textFill="#26ab2a" wrapText="true" />
+      <Button layoutX="458.0" layoutY="215.0" mnemonicParsing="false" onAction="#biletBul" prefHeight="44.0" prefWidth="96.0" style="-fx-background-color: #41EAC1;" text="Bilet Ara" textFill="#171717" />
+   </children>
+</AnchorPane>
