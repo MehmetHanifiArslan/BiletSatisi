@@ -19,9 +19,7 @@ import java.util.List;
  * @author Hanifi
  */
 public class seferlerDao extends DbConnection {
-    public seferler findBySeferler(int seferId){
-        return null;
-    }
+   
     
       public void create(seferler s) {
         

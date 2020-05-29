@@ -19,9 +19,7 @@ import java.util.List;
  * @author Hanifi
  */
 public class kampanyalarDao extends DbConnection{
-     public seferler findByKampanyalar(int kampanyaNo){
-        return null;
-    }
+   
     
     public void create(kampanyalar k) {
         

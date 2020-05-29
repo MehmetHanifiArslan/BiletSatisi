@@ -15,7 +15,7 @@ import java.util.List;
 public class InsertionSort implements Strategy {
 
     @Override
-    public void BiletSec(List<seferler> seferler) {
+    public String BiletSec(List<seferler> seferler) {
         int n = seferler.size(); 
         for (int i = 1; i < n; ++i) { 
             int key = seferler.get(i).getFiyat();
@@ -27,7 +27,9 @@ public class InsertionSort implements Strategy {
                 j = j - 1; 
             } 
             seferler.set(j+1, seferler.get(i));
+            
         } 
+    return " tren";
     }
     
 }

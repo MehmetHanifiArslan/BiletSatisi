@@ -18,9 +18,7 @@ import java.util.List;
  * @author Hanifi
  */
 public class tasitDao extends DbConnection{
-    public tasit findByTasit(int tasitId){
-        return null;
-    }
+   
     public void create(tasit t) {
         
         String query = "insert into tasit VALUES("+t.getTasitId()+",'"+t.getTasitAdi()+"')";

@@ -18,10 +18,8 @@ import java.util.List;
  * @author Hanifi
  */
 public class biletDao extends DbConnection{
-     public Bilet findByBilet(int biletNo){
-        return null;
-    }
-    
+   
+   
     public void create(Bilet b) {
         
         String query = "insert into bilet VALUES("+b.getBiletno()+",'"+b.getPeronno()+"','"+b.getSeferler1()+"','"+b.getTasit1()+"')";
@@ -32,7 +30,7 @@ public class biletDao extends DbConnection{
             System.out.println(ex.getMessage());
         }
     }
-
+   
     public void delete(int bilet_id) {
         try {
             Statement st = this.connect().createStatement();
@@ -63,7 +61,7 @@ public class biletDao extends DbConnection{
         }      
         return biletSayisi;
      }
-     
+        
      public List<Bilet> read(){
         List<Bilet> aList = new ArrayList<>();
         

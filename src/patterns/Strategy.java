@@ -14,5 +14,5 @@ import java.util.List;
  */
 public interface Strategy {
     
-    void BiletSec(List<seferler> seferler);
+    String BiletSec(List<seferler> seferler);
 }

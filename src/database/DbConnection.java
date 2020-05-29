@@ -20,7 +20,6 @@ public  class DbConnection {
         try {
             Class.forName("org.postgresql.Driver");
             this.connection=DriverManager.getConnection("jdbc:postgresql://localhost:5432/BiletSatisi", "postgres", "hanifi");  
-          System.out.println("baglanti basarili.");
         } catch (ClassNotFoundException | SQLException ex) {
             System.out.println(ex.getMessage());
         }

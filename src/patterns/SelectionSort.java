@@ -15,7 +15,7 @@ import java.util.List;
 public class SelectionSort implements Strategy {
 
     @Override
-    public void BiletSec(List<seferler> seferler) {
+    public String BiletSec(List<seferler> seferler) {
         int n = seferler.size(); 
   
       
@@ -31,7 +31,42 @@ public class SelectionSort implements Strategy {
             seferler temp = seferler.get(min_idx); 
             seferler.set(min_idx, seferler.get(i));
             seferler.set(i, temp); 
+           
+    
         } 
+    
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    return "tren";
     }
     
 }
